@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{DFB0D8C3-2C35-DC14-CC43-4E233BF47DCB}</ProjectGuid>
+    <ProjectGuid>{BC0FD685-92B8-895A-B309-48D36FF9A95B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -58,51 +58,53 @@
      <Compile Include="Assets\Script\CharacterController2D.cs" />
      <Compile Include="Assets\Script\EnemyPatrolScript.cs" />
      <Compile Include="Assets\Script\ExitScript.cs" />
+     <Compile Include="Assets\Script\LevelSelection.cs" />
      <Compile Include="Assets\Script\LoadingScript.cs" />
      <Compile Include="Assets\Script\MenuActions.cs" />
+     <Compile Include="Assets\Script\MoveToNextLevel.cs" />
      <Compile Include="Assets\Script\Player.cs" />
      <Compile Include="Assets\Script\PlayerData.cs" />
      <Compile Include="Assets\Script\PlayerMovement.cs" />
      <Compile Include="Assets\Script\SaveSystem.cs" />
      <Compile Include="Assets\SoundManagerScript.cs" />
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Users/62838/Documents/Unity Project/uts_game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>C:/Users/62838/Documents/Unity Project/uts_game_backup/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Cinemachine">
- <HintPath>C:/Users/62838/Documents/Unity Project/uts_game/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+ <HintPath>C:/Users/62838/Documents/Unity Project/uts_game_backup/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>C:/Users/62838/Documents/Unity Project/uts_game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>C:/Users/62838/Documents/Unity Project/uts_game_backup/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/62838/Documents/Unity Project/uts_game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/62838/Documents/Unity Project/uts_game_backup/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/62838/Documents/Unity Project/uts_game/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Users/62838/Documents/Unity Project/uts_game_backup/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>C:/Users/62838/Documents/Unity Project/uts_game/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>C:/Users/62838/Documents/Unity Project/uts_game_backup/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>C:/Users/62838/Documents/Unity Project/uts_game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>C:/Users/62838/Documents/Unity Project/uts_game_backup/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>C:/Users/62838/Documents/Unity Project/uts_game/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>C:/Users/62838/Documents/Unity Project/uts_game_backup/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Sprite.Editor">
- <HintPath>C:/Users/62838/Documents/Unity Project/uts_game/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+ <HintPath>C:/Users/62838/Documents/Unity Project/uts_game_backup/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Tilemap.Editor">
- <HintPath>C:/Users/62838/Documents/Unity Project/uts_game/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+ <HintPath>C:/Users/62838/Documents/Unity Project/uts_game_backup/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
  </Reference>
  <Reference Include="com.unity.cinemachine.editor">
- <HintPath>C:/Users/62838/Documents/Unity Project/uts_game/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+ <HintPath>C:/Users/62838/Documents/Unity Project/uts_game_backup/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/62838/Documents/Unity Project/uts_game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/62838/Documents/Unity Project/uts_game_backup/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/62838/Documents/Unity Project/uts_game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/62838/Documents/Unity Project/uts_game_backup/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
