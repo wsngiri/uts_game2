@@ -189,9 +189,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Exit
-
-'
+  m_Text: EXIT
 --- !u!222 &19102465
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -419,7 +417,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.26770657, g: 0.990566, b: 0.023362402, a: 1}
+    m_NormalColor: {r: 0.99215686, g: 0.111774474, b: 0.023529433, a: 1}
     m_HighlightedColor: {r: 0, g: 1, b: 0.60784316, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -500,6 +498,7 @@ GameObject:
   - component: {fileID: 732213883}
   - component: {fileID: 732213885}
   - component: {fileID: 732213884}
+  - component: {fileID: 732213886}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -557,7 +556,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Start Game
+  m_Text: START GAME
 --- !u!222 &732213885
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -566,6 +565,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 732213882}
   m_CullTransparentMesh: 0
+--- !u!114 &732213886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 732213882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d25032cfae485a245b17be13c4522ec1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1103170168
 GameObject:
   m_ObjectHideFlags: 0
@@ -655,8 +666,9 @@ GameObject:
   - component: {fileID: 1109088494}
   - component: {fileID: 1109088493}
   - component: {fileID: 1109088492}
+  - component: {fileID: 1109088495}
   m_Layer: 5
-  m_Name: ButtonLoad
+  m_Name: ButtonReset
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -702,7 +714,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.26770657, g: 0.990566, b: 0.023362402, a: 1}
+    m_NormalColor: {r: 0.95294124, g: 0.10980393, b: 0.023529414, a: 1}
     m_HighlightedColor: {r: 0, g: 1, b: 0.60784316, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -761,6 +773,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1109088490}
   m_CullTransparentMesh: 0
+--- !u!114 &1109088495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1109088490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db12dfc6a75314f43a990d5ebe5f1a02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  yourButton: {fileID: 1109088492}
 --- !u!1 &1360281581
 GameObject:
   m_ObjectHideFlags: 0
@@ -829,7 +854,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Load
+  m_Text: RESET STAGE
 --- !u!222 &1360281584
 CanvasRenderer:
   m_ObjectHideFlags: 0
