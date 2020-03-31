@@ -71,7 +71,9 @@
     <Compile Include="Assets\Script\PlayerData.cs" />
     <Compile Include="Assets\Script\PlayerMovement.cs" />
     <Compile Include="Assets\Script\SaveSystem.cs" />
+    <Compile Include="Assets\SettingMenu.cs" />
     <Compile Include="Assets\SoundManagerScript.cs" />
+    <Compile Include="Assets\VolumeValueChange.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/62838/Documents/Unity Project/uts_game_backup/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
