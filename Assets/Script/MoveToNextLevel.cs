@@ -9,6 +9,7 @@ public class MoveToNextLevel : MonoBehaviour
     public int nextSceneLoad;
 
     // Start is called before the first frame update
+    public GameObject Winning;
     void Start()
     {
         nextSceneLoad = SceneManager.GetActiveScene().buildIndex + 1;
@@ -27,7 +28,9 @@ public class MoveToNextLevel : MonoBehaviour
             else
             {
                 //Move to next level
-                SceneManager.LoadScene(nextSceneLoad);
+                Winning.SetActive(true);
+                Time.timeScale = 0f;
+
 
                 //Setting Int for Index
                 if (nextSceneLoad > PlayerPrefs.GetInt("levelAt"))
@@ -36,5 +39,13 @@ public class MoveToNextLevel : MonoBehaviour
                 }
             }
         }
+    }
+
+    public void NextScene() {
+        SceneManager.LoadScene(nextSceneLoad);
+    }
+
+    public void SceneMenu() {
+        SceneManager.LoadScene("MainMenu");
     }
 }
