@@ -20,7 +20,7 @@ public class MoveToNextLevel : MonoBehaviour
         {
             if(SceneManager.GetActiveScene().buildIndex == 5) /* < Change this int value to whatever yourlast level build index is on your build settings */
             {
-                Debug.Log("You Completed ALL Levels");
+                SceneManager.LoadScene("MainMenu");
                 
                 //Show Win Screen or Somethin.
             }

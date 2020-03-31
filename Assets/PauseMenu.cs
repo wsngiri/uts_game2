@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
@@ -48,8 +49,8 @@ public class PauseMenu : MonoBehaviour
 
     }
     public void ExitMenu() {
-        Debug.Log("Exit Menu");
-        Application.Quit();
+        SceneManager.LoadScene("MainMenu");
+
 
     }
 
