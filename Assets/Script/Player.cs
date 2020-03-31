@@ -16,6 +16,9 @@ public class Player : MonoBehaviour
     //public GameObject panel;
     public Collider2D playerHitBox;
 
+    public static bool GameIsPaused = false;
+    public GameObject PauseMenuUI;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -81,9 +84,11 @@ public class Player : MonoBehaviour
 
     public void LoadPlayer() 
     {
+      //  PauseMenuUI.SetActive(false);
+       // Time.timeScale = 1f;
+       // GameIsPaused = false;
         PlayerData data = SaveSystem.LoadPlayer();
         point = data.point;
-
         Vector3 position;
         position.x = data.position[0];
         position.y = data.position[1];
@@ -91,6 +96,7 @@ public class Player : MonoBehaviour
         transform.position = position;
         point = data.point;
         UpdateStatus();
+    
     }
 
 
